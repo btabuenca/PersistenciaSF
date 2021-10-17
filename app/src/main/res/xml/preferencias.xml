@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="opc_Fichero"
+        android:title="@string/title_Categoría">
+
+        <EditTextPreference
+            android:key="@string/key_NombreFickero"
+            android:title="@string/title_NombreFickero"
+            android:defaultValue="@string/default_NombreFich"
+            app:useSimpleSummaryProvider="true"
+            android:singleLine="true" />
+
+        <SwitchPreference
+            android:key="@string/key_TarjetaSD"
+            android:title="@string/txtPrefTarjetaSD"
+            android:defaultValue="@bool/default_prefTarjetaSD"
+            android:summary="@string/txtPrefTarjetaSDExplicación" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">[MiW] PersistenciaSF</string>
+
+    <!-- Vistas y opciones -->
+    <string name="botónAñadir">Añadir</string>
+    <string name="hintTexto">Escriba aquí&#8239;</string>
+    <string name="txtFicheroVacio">El fichero está vacío</string>
+
+    <!-- Nombre del Fichero -->
+    <string name="default_NombreFich">fichero_MiW.txt</string>
+
+    <!-- Diálogo Borrar -->
+    <string name="títuloDiálogo">Confirmación</string>
+    <string name="msgDiálogo">¿Desea borrar el fichero?</string>
+
+    <!-- Opciones Menú Acciones -->
+    <string name="opcionAjustes">Ajustes</string>
+    <string name="opcionVaciar">Vaciar Fichero</string>
+
+    <!-- Preferencias -->
+        <!-- Título categoría -->
+        <string name="title_Categoría">OPCIONES DE ALMACENAMIENTO</string>
+
+
+        <!-- Nombre del fichero -->
+        <string name="key_NombreFickero">pref_NombreFichero</string>
+        <string name="title_NombreFickero">Nombre del Fichero</string>
+
+        <!-- Tarjeta SD -->
+        <string name="key_TarjetaSD">utilizarTarjetaSD</string>
+        <bool   name="default_prefTarjetaSD">false</bool>
+        <string name="txtPrefTarjetaSD">Almacenamiento en tarjeta SD</string>
+        <string name="txtPrefTarjetaSDExplicación">
+                    Si se activa esta opción se almacenará la información
+                    en la tarjeta SD (si está disponible)
+        </string>
+        <string name="txtErrorMemExterna">
+            ERROR: No es posible acceder a la memoria externa
+        </string>
+
+</resources>
