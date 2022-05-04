@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">[MiW] PersistenciaSF</string>
+    <string name="app_name">PersistenciaSF</string>
 
     <!-- Vistas y opciones -->
     <string name="botónAñadir">Añadir</string>
@@ -7,7 +7,7 @@
     <string name="txtFicheroVacio">El fichero está vacío</string>
 
     <!-- Nombre del Fichero -->
-    <string name="default_NombreFich">fichero_MiW.txt</string>
+    <string name="default_NombreFich">fichero.txt</string>
 
     <!-- Diálogo Borrar -->
     <string name="títuloDiálogo">Confirmación</string>

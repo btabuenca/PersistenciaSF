@@ -35,7 +35,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String LOG_TAG = "MiW";
+    private final String LOG_TAG = "bta";
     private final int LONGITUD_MENSAJE = 140; // Máxima longitud mensajes
 
     private EditText etLineaTexto;
