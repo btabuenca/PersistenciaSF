@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="es.upm.miw.persistenciasf">
+    package="es.upm.btb.persistenciasf">
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -17,14 +17,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".MainActivity"
+        <activity android:name="es.upm.btb.persistenciasf.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActividadPreferencias">
+        <activity android:name="es.upm.btb.persistenciasf.ActividadPreferencias">
         </activity>
     </application>
 
